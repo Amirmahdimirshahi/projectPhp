@@ -1,0 +1,49 @@
+table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        
+        h3 {
+            font-size: 20px;
+            color: #2c3e50;
+        }
+
+        .question {
+            font-size: 18px;
+            color: #2980b9;
+        }
+
+        .output {
+            font-size: 16px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .code {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            font-family: Consolas, monospace;
+        }

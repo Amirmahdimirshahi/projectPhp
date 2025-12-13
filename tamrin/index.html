@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>پروژه فرانت اند و بک اند</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS داخلی برای لود سریع‌تر ساختار اصلی */
+        /* این استایل‌ها به styles.css منتقل خواهند شد */
+        body {
+            margin: 0;
+            font-family: Tahoma, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-group img {
+            height: 40px;
+            margin-left: 10px;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #2c3e50;
+            padding-top: 20px;
+            color: white;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid #4a667d;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-group">
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocL0tUUVPdFKWPUky-tHlYvooRGdRYiK7Ch6bzb5z7CPiVK-Eq5Q=s192-c" alt="amirmahdimirshahi">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP Logo">
+            <span class="project-title">موضوع پروژه</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <a href="./main.php">تمرین یک</a>
+            <a href="#">تمرین دو </a>
+            <a href="#">تمرین سه </a>
+        </div>
+
+        <div class="content">
+            <h1>به صفحه اصلی پروژه خوش آمدید</h1>
+            <p>لطفاً یکی از تمرین‌ها را از نوار کناری (سایدبار) انتخاب کنید.</p>
+        </div>
+    </div>
+</body>
+
+</html>
