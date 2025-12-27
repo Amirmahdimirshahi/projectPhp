@@ -10,5 +10,7 @@
     <a href="?excersice=tamrin9">تمرین نهم </a>
     <a href="?excersice=tamrin10">تمرین ده </a>
     <a href="?excersice=tamrin11">تمرین یازدهم </a>
+    <a href="?excersice=tamrin12">تمرین دوازده </a>
+
 
 </div>
